@@ -23,16 +23,6 @@ def verbalise_hour(i):
 def verbalise_minute(i):
 	if i == 0:
 		return ""
-	elif i == 1:
-		return "une"
-	elif i == 21:
-		return "vingt et une"
-	elif i == 31:
-		return "trente et une"
-	elif i == 41:
-		return "quarante et une"
-	elif i == 51:
-		return "cinquante et une"
 	else:
 		return "{0}".format(str(i)) 
 
